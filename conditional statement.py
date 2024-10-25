@@ -1,9 +1,7 @@
 '''
 Name: Rayan Joomy
 date:25-10-2024
-Description:Write a Python program to find the largest of three numbers.
-The program should take three numbers as input from the user and determine which one is the largest.
-Use conditional statements to compare the numbers.
+Description:Write a Python program whether a number is greater or not.
 '''
 
 
