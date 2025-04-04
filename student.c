@@ -23,14 +23,14 @@ for(j=0;j<3;j++)
 {
 printf("Enter the marks of %d subject",j+1);
 scanf("%d",&stu[i].marks[j];
-total=total+stu[i] marks[j];
+total=total+stu[i].marks[j];
 }
 stu[i].avg=total/3;
 total=0;
 }
 for(i=0;i<n;i++)
 {
-printf("\n name:%srollno:%daverage:%f",stu[i].name,stu[i].roll no,stu[i].average);
+printf("\n name:%s rollno:%d average:%f",stu[i].name,stu[i].rollno,stu[i].average);
 }
 return 0;
 }
