@@ -19,18 +19,18 @@ printf("Name:\n");
 scanf("%s",stu[i].name);
 printf("Roll_no\n");
 scanf("%d",&stu[i].roll_no);
-stu[i].total=0;
 for(j=0;j<3;j++)
 {
-printf("Mark:\n");
-scanf("%d",&stu[i].mark[j]);
-stu[i].total+=stu[i].mark[j];
+printf("Enter the marks of %d subject",j+1);
+scanf("%d",&stu[i].marks[j];
+total=total+stu[i] marks[j];
 }
-stu[i].avg=stu[i].total/3;
-printf("Total;\n");
-scanf("%d",&stu[i].total);
-printf("Avg:\n");
-scanf("%f",&stu[i].avg);
+stu[i].avg=total/3;
+total=0;
+}
+for(i=0;i<n;i++)
+{
+printf("\n name:%srollno:%daverage:%f",stu[i].name,stu[i].roll no,stu[i].average);
 }
 return 0;
 }
